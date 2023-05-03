@@ -6,6 +6,7 @@
 # My secrets
 
 secrets/
+secrets.py
 
 # User-specific files
 *.rsuser
