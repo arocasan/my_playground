@@ -1,4 +1,4 @@
-from secrets import secrets
+from arosecrets import arosecrets
 import json
 import logging
 from datetime import datetime
@@ -20,11 +20,11 @@ CYELL = "\33[93m"
 CBOLD = "\33[1m"
 
 
-api_token = secrets.PAT
-org_id= secrets.ORG_ID
-org_token = secrets.ORG_TOKEN
-user_email = secrets.USER_EMAIL
-site_url = secrets.SITE_URL
+api_token = arosecrets.PAT
+org_id= arosecrets.ORG_ID
+org_token = arosecrets.ORG_TOKEN
+user_email = arosecrets.USER_EMAIL
+site_url = arosecrets.SITE_URL
 
 def cloud_auth():
     failed_auth = 0
